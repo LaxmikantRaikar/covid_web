@@ -1,0 +1,188 @@
+.menu{
+
+	position: relative;
+	text-align: right;
+	padding: 5px;
+	width:100%;
+	height: auto;
+	background-color: black;
+	font-size: 18px;
+}
+
+.menu > a{
+	color: white;
+}
+
+.menu > a:hover{
+	font-weight: bold;
+	color: yellow;
+}
+
+
+
+.table-striped
+{
+	table-layout:fixed;
+	width:75%
+}
+
+thead 
+{
+	background-color: #c635d4;
+	text-align: right;
+}
+
+
+.home_div{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+	height:auto;
+	padding:30px;	
+	background-color:#94add6;
+}
+
+
+.text_covid19{ 
+	font-size: 100px;
+	font-weight: bold;
+	color: #1255c4;
+}
+
+@media (max-width: 599px) {
+  	.text_covid19 {
+    font-size:25px;
+  }
+}
+
+
+.img_corona{
+	padding-right: 30px;	
+	display: block;
+	margin-left: 2%;
+	width: 200px;
+	height:150px;
+
+}
+
+@media (max-width: 599px){
+	.img_corona{
+		width: 100px;
+		height:75px;
+	}
+}	
+
+
+
+/* styling for stats div starts from here */
+
+
+.numb_tag{
+	font-size: 36px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+@media (max-width: 599px){
+.numb_tag{
+	font-size: 22px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+}
+
+ .sum_blc_world{
+ 	width: 100%;
+ 	height: auto;
+ 	background-color: #fab6f5;
+ 	display: inline-block;
+ 	padding: 10px;
+ }
+
+@media(max-width: 499px){
+.sum_blc_world{
+ 	display: flex;
+	flex-wrap: wrap;
+ 	flex-direction: row;
+
+ }
+}
+
+ .sum_blc_a{
+ 	width: 30%;
+ 	height: auto;
+ 	float: left;
+ 	padding-top: 40px;
+
+ }
+
+
+@media(max-width: 499px){
+ .sum_blc_a{
+ 	width: 100%;
+ }
+}
+
+#sum_blc_b{
+	width: 70%;
+	height: 200px;
+	display: inline-block;
+	padding: 10px;
+	padding-right: 0px;
+}
+
+@media(max-width: 599px){
+	#sum_blc_b{
+	width: 100%;
+	height: auto;
+	}
+}
+
+.box{
+	width: 30%;
+	height: 180px;
+	float: left;
+	margin-right: 3%;
+	border-radius: 5%;
+	display: flex;
+	justify-content:center;
+	text-align: center;
+	flex-direction: column;
+	border-style: solid;
+
+}
+
+@media(max-width: 499px){
+.box{
+	width: 200px;
+	height: 100px;
+	margin: 10px;
+	margin-right: 10px:;
+	border-radius: 10%;
+	border-style: solid;
+	}
+}
+
+.box >
+h1{
+	font-weight: 600;
+	font-size: 40px;
+}
+
+@media (max-width: 800px){
+.box >
+h1{
+	font-weight: 600;
+	font-size: 30px;
+}
+}
+
+@media (max-width: 600px){
+.box >
+h1{
+	font-weight: 600;
+	font-size: 20px;
+}
+}
