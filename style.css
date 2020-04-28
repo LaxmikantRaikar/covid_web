@@ -105,7 +105,6 @@ thead
 .sum_blc_world{
  	display: flex;
 	flex-wrap: wrap;
- 	flex-direction: row;
 
  }
 }
@@ -156,10 +155,10 @@ thead
 
 @media(max-width: 499px){
 .box{
-	width: 200px;
-	height: 100px;
-	margin: 10px;
-	margin-right: 10px:;
+	width: 30%;
+	height: 60px;
+	margin: 5px;
+	margin-right: 5px:;
 	border-radius: 10%;
 	border-style: solid;
 	}
@@ -176,6 +175,23 @@ h1{
 h1{
 	font-weight: 600;
 	font-size: 30px;
+}
+}
+
+@media (max-width: 499px){
+.box >
+h1{
+	font-weight: 600;
+	font-size: 18px;
+}
+}
+
+
+@media (max-width: 499px){
+.box >
+h5{
+	font-weight: 600;
+	font-size: 14px;
 }
 }
 
