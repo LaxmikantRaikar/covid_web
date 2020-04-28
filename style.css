@@ -201,4 +201,20 @@ h1{
 	font-weight: 600;
 	font-size: 20px;
 }
-}
+}font-weight: 600
+.image_width
+> img{
+        width:50%;
+        height:auto;
+        }
+.image_grid{
+	width:100%;
+	}
+
+	
+	
+	
+	
+	
+	
+
