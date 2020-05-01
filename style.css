@@ -74,7 +74,23 @@ thead
 	}
 }	
 
+.sub_menu1{ 
+	font-size: 44px;
+	font-weight: bold;
+	color: #1255c4;
+	background-color:#94add6;
+	text-align: center;
+	margin: 0px;
+}
 
+.sub_menu1>p{
+	margin: 0px;
+}
+@media (max-width: 599px) {
+  	.sub_menu1 {
+    font-size:22px;
+  }
+}
 
 /* styling for stats div starts from here */
 
@@ -98,6 +114,7 @@ thead
  	height: auto;
  	background-color: #fab6f5;
  	display: inline-block;
+
  	padding: 10px;
  }
 
@@ -202,16 +219,28 @@ h1{
 	font-size: 20px;
 }
 }font-weight: 600
-.image_grid
-> img{
-        width:50%;
-        height:auto;
-        }
-.image_grid{
-	width:100%;
-	}
 
+ul {position: relative;
+}
+
+.lh {
 	
+	left: 0;
+	font-weight: bold;
+	font-size: 20px
+}
+
+.sub_content{
+	background-color: #acaebf;
+}
+
+.row > div{
+
+	padding:20px; 
+
+}
+
+
 	
 	
 	
