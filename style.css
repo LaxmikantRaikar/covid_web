@@ -83,11 +83,11 @@ thead
 	margin: 0px;
 }
 
-.sub_menu1>p{
+.sub_menu>p{
 	margin: 0px;
 }
 @media (max-width: 599px) {
-  	.sub_menu1 {
+  	.sub_menu {
     font-size:22px;
   }
 }
